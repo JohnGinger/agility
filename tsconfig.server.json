@@ -3,7 +3,10 @@
     "outDir": "build/server",
     "module": "commonjs",
     "target": "es5",
-    "lib": ["es6", "dom"],
+    "lib": [
+      "es6",
+      "dom"
+    ],
     "sourceMap": true,
     "allowJs": true,
     "jsx": "react",
@@ -25,7 +28,10 @@
     "webpack",
     "jest",
     "config",
-    "src"
+    "browser",
+    "db"
   ],
-  "types": ["typePatches"]
+  "types": [
+    "typePatches"
+  ]
 }
