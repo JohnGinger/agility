@@ -11,9 +11,10 @@
             "program": "${workspaceRoot}/server/index.ts",
             "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/nodemon",
             "runtimeArgs": [
-                "--debug=5858"
+                "--inspect=5858"
             ],
             "restart": true,
+            "protocol": "inspector",
             "port": 5858,
             "sourceMaps": true,
             "outFiles": [
